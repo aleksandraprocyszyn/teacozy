@@ -7,6 +7,7 @@ body {
   opacity: 0.9;
 }
 
+/*START header css*/
 header {
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,8 @@ header {
   width: 100%;
   align-items: center;
   position: fixed;
-  /*padding-right: 40px;*/
+  z-index: 1;
+  top: 0;
 }
 
 header img {
@@ -32,3 +34,4 @@ nav span {
 a {
   color: seashell;
 }
+/*END header CSS*/
