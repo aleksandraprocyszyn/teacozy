@@ -63,7 +63,7 @@ main {
   width: 1000px;
   height: 700px;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .images {
@@ -85,3 +85,56 @@ main {
 .item h4 {
   margin-top: 10px;
 }
+/*END Menu*/
+
+/*START locations*/
+#location {
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  height: 500px;
+}
+
+#location h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+#location .addresses {
+  margin: auto;
+  width: 1100px;
+}
+
+.addresses {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+/*END locations*/
+
+/*START contact*/
+
+#contact {
+  height: 200px;
+}
+
+/*END contact*/
+
+/*START footer*/
+footer {
+  text-align: left;
+  padding: 20px;
+}
+
+
+/*END contact*/
