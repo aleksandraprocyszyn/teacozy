@@ -35,3 +35,53 @@ a {
   color: seashell;
 }
 /*END header CSS*/
+
+/*START main section*/
+
+main {
+  padding-top: 70px;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+}
+
+/*END main section*/
+
+/*START menu*/
+#menu {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
